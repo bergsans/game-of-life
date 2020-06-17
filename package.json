@@ -1,0 +1,25 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build-browser-demo": "./node_modules/browserify/bin/cmd.js  src/demo-browser/simulate.js -o src/demo-browser/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergsans/game-of-life.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bergsans/game-of-life/issues"
+  },
+  "homepage": "https://github.com/bergsans/game-of-life#readme",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "jest": "^26.0.1"
+  }
+}
